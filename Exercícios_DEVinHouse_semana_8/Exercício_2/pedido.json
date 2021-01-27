@@ -1,0 +1,80 @@
+{
+  "@id": "1",
+  "cliente": {
+    "nome": "Fulano",
+    "idade": "20",
+    "genero": "Masculino",
+    "telefones": [{
+        "@id": "1",
+        "#text": "(00) 9 1122-3344"
+      },
+      {
+        "@id": "2",
+        "#text": "(00) 9 5566-7788"
+      }
+    ],
+    "enderecoCliente": {
+      "pais": "Brasil",
+      "estado": "SC",
+      "municipio": "Florianópolis",
+      "bairro": "Centro",
+      "rua": "Rua Pressidente Nereu Ramos",
+      "numero": "10"
+    }
+  },
+  "enderecoEntrega": {
+    "pais": "Brasil",
+    "estado": "SC",
+    "municipio": "Florianópolis",
+    "bairro": "Centro",
+    "rua": "Rua Pressidente Nereu Ramos",
+    "numero": "10"
+  },
+  "itensPedido": [{
+      "@id": "1",
+      "estabelecimento": "McDONALD'S",
+      "nome": "PICANHA CLUBHOUSE 1 CARNE",
+      "descricao": "Um delicioso hambúrguer feito com Picanha, bacon rústico, nosso famoso molho especial,\n          queijo emental, cebola shoyu, alface e tomate fresquinhos, e maionese picanha no pão tipo brioche.",
+      "imagem": {
+        "@src": "https://d25dk4h1q4vl9b.cloudfront.net/media/images/menu-content/BR/picanha/PicanhaClubhouse1carne.png"
+      },
+      "restricoes": "Nenhuma",
+      "valorItem": {
+        "moeda": "Reais",
+        "valor": "18"
+      }
+    },
+    {
+      "@id": "2",
+      "estabelecimento": "McDONALD'S",
+      "nome": "MCSHAKE",
+      "descricao": "O novo McShake é feito com leite e batido na hora. Você pode escolher nos sabores Ovomaltine ®, Chocolate Kopenhagen ® ou morango.",
+      "imagem": {
+        "@src": "https://d25dk4h1q4vl9b.cloudfront.net/media/images/menu-content/BR/bebidas/mcshake_br2.png"
+      },
+      "restricoes": "Nenhuma",
+      "valorItem": {
+        "moeda": "Reais",
+        "valor": "12"
+      }
+    },
+    {
+      "@id": "2",
+      "estabelecimento": "McDONALD'S",
+      "nome": "MCFRITAS",
+      "descricao": "Deliciosas batatas selecionadas, fritas, crocantes por fora, macias por dentro, douradas, irresistíveis, saborosas, famosas, e todos os outros adjetivos positivos que você quiser dar.",
+      "imagem": {
+        "@src": "https://d25dk4h1q4vl9b.cloudfront.net/media/images/menu-content/BR/acompanhamentos/fritasv3.png"
+      },
+      "restricoes": "Nenhuma",
+      "valorItem": {
+        "moeda": "Reais",
+        "valor": "7"
+      }
+    }
+  ],
+  "valorTotal": {
+    "moeda": "Reais",
+    "valor": "37"
+  }
+}
