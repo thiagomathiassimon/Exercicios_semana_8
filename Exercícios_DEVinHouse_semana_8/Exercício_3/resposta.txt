@@ -1,0 +1,2 @@
+Numa API Rest de CRUD, o método HTTP utilizado para realizar a inserção dum novo registro é o método POST.
+Normalmente, esse método é utilizado sem a passagem de quaisquer parâmetros.
