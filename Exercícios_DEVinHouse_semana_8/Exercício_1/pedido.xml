@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido id="1">
+  <cliente>
+    <nome>Fulano</nome>
+    <idade>20</idade>
+    <genero>Masculino</genero>
+    <telefones>
+      <telefone id="1">(00) 9 1122-3344</telefone>
+      <telefone id="2">(00) 9 5566-7788</telefone>
+    </telefones>
+    <enderecoCliente>
+      <pais>Brasil</pais>
+      <estado>SC</estado>
+      <municipio>Florianópolis</municipio>
+      <bairro>Centro</bairro>
+      <rua>Rua Pressidente Nereu Ramos</rua>
+      <numero>10</numero>
+    </enderecoCliente>
+  </cliente>
+  <enderecoEntrega>
+    <pais>Brasil</pais>
+    <estado>SC</estado>
+    <municipio>Florianópolis</municipio>
+    <bairro>Centro</bairro>
+    <rua>Rua Pressidente Nereu Ramos</rua>
+    <numero>10</numero>
+  </enderecoEntrega>
+  <itensPedido>
+    <item id="1">
+      <estabelecimento>McDONALD'S</estabelecimento>
+      <nome>PICANHA CLUBHOUSE 1 CARNE</nome>
+      <descricao>
+          Um delicioso hambúrguer feito com Picanha, bacon rústico, nosso famoso molho especial,
+          queijo emental, cebola shoyu, alface e tomate fresquinhos, e maionese picanha no pão tipo brioche.
+      </descricao>
+      <imagem src="https://d25dk4h1q4vl9b.cloudfront.net/media/images/menu-content/BR/picanha/PicanhaClubhouse1carne.png" />
+      <restricoes>Nenhuma</restricoes>
+      <valorItem>
+        <moeda>Reais</moeda>
+        <valor>18</valor>
+      </valorItem>
+    </item>
+    <item id="2">
+      <estabelecimento>McDONALD'S</estabelecimento>
+      <nome>MCSHAKE</nome>
+      <descricao>
+         O novo McShake é feito com leite e batido na hora. Você pode escolher nos sabores Ovomaltine ®, Chocolate Kopenhagen ® ou morango.
+      </descricao>
+      <imagem src="https://d25dk4h1q4vl9b.cloudfront.net/media/images/menu-content/BR/bebidas/mcshake_br2.png" />
+      <restricoes>Nenhuma</restricoes>
+      <valorItem>
+        <moeda>Reais</moeda>
+        <valor>12</valor>
+      </valorItem>
+    </item>
+    <item id="2">
+      <estabelecimento>McDONALD'S</estabelecimento>
+      <nome>MCFRITAS</nome>
+      <descricao>
+          Deliciosas batatas selecionadas, fritas, crocantes por fora, macias por dentro, douradas, irresistíveis, saborosas, famosas, e todos os outros adjetivos positivos que você quiser dar.      </descricao>
+      <imagem src="https://d25dk4h1q4vl9b.cloudfront.net/media/images/menu-content/BR/acompanhamentos/fritasv3.png" />
+      <restricoes>Nenhuma</restricoes>
+      <valorItem>
+        <moeda>Reais</moeda>
+        <valor>7</valor>
+      </valorItem>
+    </item>
+  </itensPedido>
+  <valorTotal>
+    <moeda>Reais</moeda>
+    <valor>37</valor>
+  </valorTotal>
+</pedido>
