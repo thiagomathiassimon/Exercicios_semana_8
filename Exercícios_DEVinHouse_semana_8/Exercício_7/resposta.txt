@@ -1,0 +1,3 @@
+Dado o intento de realizar-se uma exclusão, o que é visível pela parte "deletePessoa" e pelo fato de passar-se um Id como parâmetro,
+ prática comum quando da exclusão dalgum registro, sugerir-se-á, como possível melhoria, aludindo às boas práticas,
+  a substituição do método HTTP GET pelo método HTTP DELETE.
