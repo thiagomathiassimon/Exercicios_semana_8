@@ -1,0 +1,2 @@
+Numa API Rest de CRUD, o método HTTP utilizado para realizar a busca dum registro pelo Id é o método GET.
+Nesse caso, esse método é utilizado com a passagem do Id desejado como parâmetro.
