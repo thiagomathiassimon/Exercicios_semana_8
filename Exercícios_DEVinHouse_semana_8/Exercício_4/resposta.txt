@@ -1,0 +1,2 @@
+Numa API Rest de CRUD, o método HTTP utilizado para realizar a edição dum registro é o método PUT.
+Normalmente, esse método é utilizado com a passagem de parâmetros.
