@@ -1,0 +1,2 @@
+O código de retorno HTTP 201 indica, assim como os demais códigos 2XX, confirmação da operação, ou seja, a operação foi concluída ou entendida.
+ Assim sendo, o resultado da operação foi a inclusão, com êxito, duma nova pessoa.
