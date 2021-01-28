@@ -1,0 +1,4 @@
+O código HTTP 404 é, assim como os demais códigos 4XX, um erro do cliente.
+Especificamente, o 404, é chamado de 'Not Found', ou seja, é disparado quando o servidor não encontra o recurso solicitado. 
+As causas dum código 404 são extremamente amplas e variáveis, outrossim há, ainda, uma grande discussão sobre a utilização de códigos HTTP em cenários específicos.
+Todavia, de forma geral, o código 404 é, comumente, encontrado quando duma requisição cuja URL não existe ou está digitada incorretamente, dentre outras circunstâncias.
