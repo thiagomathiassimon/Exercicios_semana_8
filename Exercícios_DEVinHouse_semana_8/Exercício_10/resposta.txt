@@ -1,0 +1,3 @@
+Tendo em vista o intento de retornar um os itens dum determinado pedido, utilizar-se-á uma requisição do método HTTP GET com passagem de Id por parâmetro.
+Assim sendo, ter-se-ia algo tal qual:
+GET/pedidos/getPedido/{idPedido}
