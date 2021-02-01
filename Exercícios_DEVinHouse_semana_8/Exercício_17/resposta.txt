@@ -1,0 +1,101 @@
+O método HTTP e a URI seriam algo tal qual:
+GET/restaurantes/cardapio
+E o JSON de retorno algo tal qual:
+[
+  {
+    "id": 1,
+    "nome": "Meu Cantinho Churrascaria",
+    "cardapio":{
+      "aperitivos":[
+        {
+          "nome": "LINGUICINHA",
+          "preco": "R$7,50"
+        },
+        {
+          "nome": "CORAÇÃO DE FRANGO",
+          "preco": "R$25,00"
+        }
+      ],
+      "carnes":[
+        {
+          "nome": "ALCATRA COMPLETA",
+          "preco": "R$198,00"
+        },
+        {
+          "nome": "FILÉ DUPLO COM FRALDINHA",
+          "preco": "R$130,00"
+        }
+      ],
+      "sobremesas":[
+        {
+          "nome": "SOBREMESAS FINAS",
+          "preco": "R$12,50"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "nome": "Pizzaria Bel Mangio"
+  "cardapio":{
+      "pizzas tradicionais":[
+        {
+          "nome": "BACON",
+          "preco": "R$64,00"
+        },
+        {
+          "nome": "CALABRESA",
+          "preco": "R$64,00"
+        }
+      ],
+      "pizzas especiais":[
+        {
+          "nome": "BEL MANGIO",
+          "preco": "R$75,00"
+        },
+        {
+          "nome": "DI CAPRI",
+          "preco": "R$84,00"
+        }
+      ],
+      "sabores do chef":[
+        {
+          "nome": "FILETTO DI PICANHA",
+          "preco": "R$84,00"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "nome": "Temakin"
+    "cardapio":{
+      "entradas":[
+        {
+          "nome": "SUNOMONO",
+          "preco": "R$15,00"
+        },
+        {
+          "nome": "CHIPS SALMÃO",
+          "preco": "R$6,00"
+        }
+      ],
+      "pokes":[
+        {
+          "nome": "POKE ESPECIAL",
+          "preco": "R$30,00"
+        },
+        {
+          "nome": " VEGETARIANO",
+          "preco": "R$25,00"
+        }
+      ],
+      "hossomakis":[
+        {
+          "nome": "SHAKE MAKI",
+          "preco": "R$17,00"
+        }
+      ]
+    }
+  }
+]
