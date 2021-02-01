@@ -1,2 +1,3 @@
 Dado o intento de realizar-se uma edição, o que é visível pela parte "alteraPessoa", sugerir-se-á, como possível melhoria,
- aludindo às boas práticas, a substituição do método HTTP POST pelo método HTTP PUT.
+ aludindo às boas práticas, a substituição do método HTTP POST pelo método HTTP PUT, ademais, sugerir-se-á, também,
+  a exclusão da parte "alteraPessoa", outrossim a mesma não é necessária, quando da utilização correta do método HTTP.
