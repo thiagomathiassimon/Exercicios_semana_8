@@ -1,3 +1,4 @@
-Tendo em vista o intento de excluir um determinado pedido, utilizar-se-á uma requisição do método HTTP DELETE com a passagem do Id do pedido como parâmetro.
+Tendo em vista o intento de cancelar um determinado pedido, utilizar-se-á uma requisição do método HTTP PUT com a passagem do Id do pedido como parâmetro.
 Assim sendo, ter-se-ia algo tal qual:
-DELETE/pedidos/deletePedido/{idPedido}
+PUT/pedidos/{idPedido}
+Também, dever-se-á, no corpo da requisição, alterar o 'status' do pedido para cancelado.
