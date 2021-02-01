@@ -1,0 +1,5 @@
+Dado o intento de adicionar-se um item ao pedido, e não um pedido novo, poder-se-ia utilizar o método HTTP PUT para o referido acréscimo.
+Destarte, ter-se-ia algo tal qual:
+PUT/pedidos/{idPedido}
+E, informar-se-ia, no corpo da requisição, os dados do novo item a ser incluso.
+Nesse cenário, poder-se-ia, também, utilizar o método HTTP PATCH, o qual, diferentemente do PUT, alteraria, unicamente, a informação necessária.
