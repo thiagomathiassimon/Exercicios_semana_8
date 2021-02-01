@@ -1,0 +1,4 @@
+Dado o intento de excluir-se um item do pedido, poder-se-ia utilizar o método HTTP PUT.
+Assim, ter-se-ia algo tal qual:
+PUT/pedidos/{idPedido}
+ademais, no corpo da requisição, passar-se-iam todos os itens do pedido, a exceção daquele cuja remoção era pretendida.
