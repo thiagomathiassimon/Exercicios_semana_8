@@ -1,0 +1,17 @@
+O método HTTP e a URI seriam algo tal qual:
+GET/restaurantes
+E o JSON de retorno algo tal qual:
+[
+  {
+    "id": 1,
+    "nome": "Meu Cantinho Churrascaria"
+  },
+  {
+    "id": 2,
+    "nome": "Pizzaria Bel Mangio"
+  },
+  {
+    "id": 3,
+    "nome": "Temakin"
+  }
+]
