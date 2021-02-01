@@ -1,0 +1,3 @@
+Não há uma padronização quanto aos códigos de erro a serem retornados quando de quaisquer problemas na execução da requisição.
+Todavia, pensa-se que uma resposta satisfatória seria o retorno 500 Internal Server Error, o qual é destinado para momentos em que o servidor 
+não sabe como lidar com determinada situação.
